@@ -28,20 +28,21 @@ header h2 {
 }
 
 .nav-bar {
-    list-style-type: none;
     background-color: #3B60E4;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
 }
 
 .nav-lista {
     display: flex;
-    
+    list-style-type: none;
 }
 
 .menu-item {
-    display: inline-block;
     color: #C8ADC0;
-    /* margin-inline: 150px; */
+    justify-content: space-between;
+    align-items: center;
+    /* margin-inline: 100px; */
 }
 
 .menu-item a {
@@ -103,7 +104,7 @@ header h2 {
     font-size: 40px;
     margin-right: 10px;
     color:#7765E3;
-    transition: 500ms;
+    transition: 300ms;
 }
 
 .contenedor-iconos i:hover {
