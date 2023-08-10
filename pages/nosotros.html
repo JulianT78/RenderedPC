@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
     <title>Nosotros</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1 class="titulo">Rendered PC</h1>
         <h2 class="sub-titulo">Soluciones informáticas</h2>
     </header>
-    <div class="container-nav">
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="./nosotros.html">NOSOTROS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./servicios.html">SERVICIOS</a></li>
-                <li><a href="./faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-    </div>
+    
+    <nav class="nav-bar">
+        <ul class="nav-lista">
+            <li class="menu-item"><a href="./nosotros.html">NOSOTROS</a></li>
+            <li class="menu-item"><a href="./contacto.html">CONTACTO</a></li>
+            <li class="menu-item"><a href="../index.html">INICIO</a></li>
+            <li class="menu-item"><a href="./servicios.html">SERVICIOS</a></li>
+            <li class="menu-item"><a href="./faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
 
     <section class="body">
-        <h3>Molina torres, Mario Julian // Render</h3>
-        <img src="../img/render.jpeg" alt="">
-        <p>Soy un técnico informático graduado de la UTN-FRC que ha trabajado con todo tipo de hardware de cómputo, dispuesto a solucionar todos los problemas que se presenten en cualquier equipo</p>
-        <img src="../img/UTN_logo.jpg" alt="">
+        <h3 id="h3-subtitulo">Molina torres, Mario Julian // Render</h3>
+        <img src="../img/render.jpeg" alt="" id="yo">
+        <p id="parrafo-nosotros">Soy un técnico informático graduado de la UTN-FRC que ha trabajado con todo tipo de hardware de cómputo, dispuesto a solucionar todos los problemas que se presenten en cualquier equipo</p>
+        <img src="../img/UTN_logo.jpg" alt="" id="logo-utn">
     </section>
 
-    <footer>
+    <footer class="footer">
         <h2 class="footer-titulo">Rendered PC // Copyright 2023®</h2>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-        <a href="https://www.instagram.com/rendered.pc/"><i class="fa-brands fa-instagram"></i></a>
+        <div class="contenedor-iconos">
+            <a href="https://www.linkedin.com/in/mario-juli%C3%A1n-molina-torres-2a8bb7247/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://www.instagram.com/rendered.pc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
     </footer>
 </body>
 </html>

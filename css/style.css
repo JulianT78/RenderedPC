@@ -30,23 +30,28 @@ header h2 {
 .nav-bar {
     background-color: #3B60E4;
     padding: 1rem;
-    display: flex;
 }
 
 .nav-lista {
     display: flex;
-    list-style-type: none;
-}
-
-.menu-item {
-    color: #C8ADC0;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    /* margin-inline: 100px; */
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .menu-item a {
     color: #C8ADC0;
+    transition: 300ms;
+}
+
+.menu-item a:hover {
+    color: #080708;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
 }
 
 .titulo-section {
@@ -60,18 +65,23 @@ header h2 {
 }
 
 #img1 {
-    width: 700px;
+    width: 600px;
     margin-left: 1rem;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
 }
 
+.img-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 1rem;
+}
 
 #img2 {
-    width: 700px;
-    margin-left: 74rem;
+    width: 600px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
-
 
 .parrafo-section {
     font-size: 22px;
@@ -81,7 +91,6 @@ header h2 {
     1px -1px 0 white,
     -1px 1px 0 white,
     1px 1px 0 white;
-    margin-left: 74rem;
     text-align: center;
 }
 
