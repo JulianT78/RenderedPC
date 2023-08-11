@@ -190,6 +190,28 @@ header h2 {
 
 /* FAQ */
 
+#cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#faq-titulo {
+   text-align: center;
+   margin: 1rem;
+   transition: 300ms;
+}
+
+#faq-titulo:hover {
+    font-size: 30px;
+    cursor: context-menu;
+    text-shadow: 
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
 #cajas {
     display: flex;
     flex-direction: row;
@@ -197,5 +219,26 @@ header h2 {
 
 .caja {
     margin: 1rem;
+    padding: 1.5rem;
     width: 40%;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.caja-subtitulo {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pr-caja {
+    margin: 1.5rem;
+}
+
+.pregunta {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.respuesta {
+    text-align: justify;
 }
