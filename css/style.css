@@ -61,9 +61,14 @@ header h2 {
 }
 
 #img1 {
-    width: 600px;
+    width: 500px;
     margin-left: 1rem;
+    transition: 300ms;
+}
+
+#img1:hover {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
 }
 
 .img-box2 {
@@ -75,8 +80,13 @@ header h2 {
 }
 
 #img2 {
-    width: 600px;
+    width: 500px;
+    transition: 300ms;
+}
+
+#img2:hover {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
 }
 
 .cont-parrafo {
@@ -175,4 +185,17 @@ header h2 {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+}
+
+
+/* FAQ */
+
+#cajas {
+    display: flex;
+    flex-direction: row;
+}
+
+.caja {
+    margin: 1rem;
+    width: 40%;
 }
