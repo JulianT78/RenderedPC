@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Servicios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1 class="titulo">Rendered PC</h1>
         <h2 class="sub-titulo">Soluciones informáticas</h2>
     </header>
-    <div class="container-nav">
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="./nosotros.html">NOSOTROS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./servicios.html">SERVICIOS</a></li>
-                <li><a href="./faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-    </div>
 
-    <section class="tabla-precios">
-        <table>
+    <nav class="nav-bar">
+      <ul class="nav-lista">
+          <li class="menu-item"><a href="./nosotros.html">NOSOTROS</a></li>
+          <li class="menu-item"><a href="./contacto.html">CONTACTO</a></li>
+          <li class="menu-item"><a href="../index.html">INICIO</a></li>
+          <li class="menu-item"><a href="./servicios.html">SERVICIOS</a></li>
+          <li class="menu-item"><a href="./faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table class="table table-striped table-hover table-bordered align-middle">
             <thead>
               <tr>
                 <th>TIPO DE ARREGLO</th>
@@ -85,13 +88,23 @@
               </tr>
             </tbody>
           </table>
-    </section>
+        </div>
+      </div>
+    </div>
+    
 
-    <footer>
+    
+
+    <footer class="footer">
         <h2 class="footer-titulo">Rendered PC // Copyright 2023®</h2>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-        <a href="https://www.instagram.com/rendered.pc/"><i class="fa-brands fa-instagram"></i></a>
+        <div class="contenedor-iconos">
+          <a href="https://www.linkedin.com/in/mario-juli%C3%A1n-molina-torres-2a8bb7247/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <i class="fa-brands fa-whatsapp"></i>
+          <a href="https://www.instagram.com/rendered.pc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
