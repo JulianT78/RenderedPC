@@ -10,6 +10,7 @@
 body {
     /* background-image: url("../img/index-fondo.jpg"); */
     background-color: #C8ADC0;
+    /* background-color: rgb(20, 20, 20); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -251,6 +252,23 @@ header h2 {
 
 /* SERICIOS */
 
+#serv-precios {
+    color: #080708;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 35px;
+}
+
 table {
     margin-top: 1rem;
+}
+
+th, td {
+    text-align: center;
+}
+
+#consulta {
+    text-align: end;
+    margin-right: 25px;
+    font-size: 2rem;
 }
