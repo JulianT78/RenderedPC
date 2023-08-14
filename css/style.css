@@ -51,7 +51,15 @@ header h2 {
     color: #080708;
 }
 
-.titulo-section {
+/* INDEX */
+
+#cuerpo-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo-index {
     font-size: 24px;
     margin: 1rem;
     text-shadow: 
@@ -72,13 +80,21 @@ header h2 {
     width: 600px;
 }
 
-.img-box2 {
+#index-box {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    height: 100%;
+    align-items: start;
+    margin: 1rem;
+    height: 550px;
+}
+
+#index-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    margin-top: 35rem;
+    width: 50%;
 }
 
 #img2 {
@@ -91,12 +107,7 @@ header h2 {
     width: 600px;
 }
 
-.cont-parrafo {
-    width: 45%;
-    text-align: center;
-}
-
-.parrafo-section {
+#parrafo-box {
     font-size: 20px;
     margin: 1rem;
     text-shadow: 
@@ -105,6 +116,7 @@ header h2 {
     -1px 1px 0 white,
     1px 1px 0 white;
     text-align: center;
+    width: 90%;
 }
 
 .footer {
