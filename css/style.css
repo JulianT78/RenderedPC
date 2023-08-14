@@ -250,7 +250,7 @@ header h2 {
     text-align: justify;
 }
 
-/* SERICIOS */
+/* SERVICIOS */
 
 #serv-precios {
     color: #080708;
@@ -329,6 +329,7 @@ th, td {
 
 #lblConsulta {
     text-align: center;
+    margin-bottom: .5rem;
 }
 
 #ubicacion {
