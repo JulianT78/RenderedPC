@@ -363,3 +363,29 @@ th, td {
     justify-content: space-between;
     width: 400px;
 }
+
+/* RESPONSIVE */
+/* FAQ */
+@media (max-width: 600px) {
+    .header,
+    .nav-nar,
+    .footer {
+        width: auto;
+    }
+    
+    #cajas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .caja {
+        margin: 2rem;
+        width: 420px;
+    }
+
+    .caja .caja-subtitulo {
+        font-size: 25px;
+    }
+}
