@@ -158,11 +158,23 @@ header h2 {
     font-size: 25px;
 }
 
+#div-imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo-utn {
+    width: 400px;
+    height: 400px;
+}
+
 #parrafo-nosotros {
     font-size: 20px;
-    width: 30%;
+    width: 40%;
     margin: 1rem;
-    text-align: justify;
+    text-align: center;
 }
 
 #span-utn {
