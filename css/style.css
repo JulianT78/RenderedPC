@@ -272,3 +272,93 @@ th, td {
     margin-right: 25px;
     font-size: 2rem;
 }
+
+/* CONTACTO */
+
+#cuerpoContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h3sub-contacto {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 1rem;
+    padding: 1rem;
+    border: 3px solid #080708;
+    border-radius: 5%;
+    background-color: #7765E3;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    transition: 400ms;
+}
+
+#formulario:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#nombre-apellido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#nombre-apellido,
+#txtCorreo,
+#txtNTel,
+#textArea,
+#h3Correo
+{
+    margin-bottom: 1rem;
+}
+
+#txtCorreo,
+#txtNTel {
+    width: 300px;
+}
+
+#lblConsulta {
+    text-align: center;
+}
+
+#ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+#h3Ubicacion {
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+#mapa {
+    transition: 400ms;
+    border-radius: 5%;
+}
+
+#mapa:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#textArea {
+    resize: none;
+}
+
+#pregunta-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
