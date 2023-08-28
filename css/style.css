@@ -187,11 +187,11 @@ header h2 {
     text-align: center;
 }
 
-#span-utn {
+#strong-utn {
     transition: 400ms;
 }
 
-#span-utn:hover {
+#strong-utn:hover {
     color: #7765E3;
     font-size: 25px;
     text-shadow: 
@@ -203,13 +203,6 @@ header h2 {
 
 .imagenes-body {
     width: 30%;
-}
-
-.imagenes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
 }
 
 

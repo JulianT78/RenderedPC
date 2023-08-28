@@ -1,0 +1,57 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #h3-subtitulo {
+        margin: 1rem;
+        transition: 400ms;
+
+        &:hover {
+            text-shadow: 
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px 1px 0 white,
+            1px 1px 0 white;
+            cursor: pointer;
+            font-size: 25px;
+        }
+    }
+
+    #div-imagenes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .imagenes-body {
+            width: 30%;
+        }
+
+        #logo-utn {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    #parrafo-nosotros {
+        font-size: 20px;
+        width: 40%;
+        margin: 1rem;
+        text-align: center;
+
+        #strong-utn {
+            transition: 400ms;
+
+            &:hover {
+                color: $violet;
+                font-size: 25px;
+                text-shadow: 
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
+            }
+        }
+    }
+}
