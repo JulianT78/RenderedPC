@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@1,100;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "REM", sans-serif;
+}
+
+.header {
+  background-color: #080708;
+  color: #7765E3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.header h2 {
+  text-align: end;
+  margin-right: 20px;
+}
+
+.nav-bar {
+  background-color: #3B60E4;
+  padding: 1rem;
+}
+.nav-bar .nav-lista {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.nav-bar .menu-item a {
+  color: #C8ADC0;
+  transition: 300ms;
+  text-decoration: none;
+}
+.nav-bar .menu-item a:hover {
+  color: #080708;
+}
+
+body {
+  background-color: #C8ADC0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: #080708;
+  color: #7765E3;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .contenedor-iconos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer .contenedor-iconos i {
+  font-size: 40px;
+  margin-right: 10px;
+  color: #7765E3;
+  transition: 300ms;
+}
+.footer .contenedor-iconos i:hover {
+  cursor: pointer;
+  color: #EDD3C4;
+}/*# sourceMappingURL=main.css.map */
