@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@1,100;1,500&display=swap");
+@media (max-width: 700px) {
+  .header,
+  .nav-bar,
+  .footer {
+    width: 100%;
+  }
+  .menu-item {
+    font-size: 15px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -233,4 +243,79 @@ table th, table td {
 }
 #cuerpo #cajas .caja .pr-caja .respuesta {
   text-align: justify;
+}
+
+#cuerpoContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#cuerpoContacto #formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 1rem;
+  padding: 1rem;
+  border: 3px solid #080708;
+  border-radius: 5%;
+  background-color: #7765E3;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  transition: 400ms;
+}
+#cuerpoContacto #formulario:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+#cuerpoContacto #formulario #h3sub-contacto {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+#cuerpoContacto #formulario #nombre-apellido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#cuerpoContacto #formulario #nombre-apellido,
+#cuerpoContacto #formulario #txtCorreo,
+#cuerpoContacto #formulario #txtNTel,
+#cuerpoContacto #formulario #textArea,
+#cuerpoContacto #formulario #h3Correo {
+  margin-bottom: 1rem;
+}
+#cuerpoContacto #formulario #txtCorreo,
+#cuerpoContacto #formulario #txtNTel {
+  width: 300px;
+}
+#cuerpoContacto #formulario #lblConsulta {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+#cuerpoContacto #formulario #textArea {
+  resize: none;
+}
+#cuerpoContacto #formulario #pregunta-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+#cuerpoContacto #ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+#cuerpoContacto #ubicacion #h3Ubicacion {
+  margin-bottom: 1rem;
+  font-size: 25px;
+}
+#cuerpoContacto #ubicacion #mapa {
+  transition: 400ms;
+  border-radius: 5%;
+}
+#cuerpoContacto #ubicacion #mapa:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=main.css.map */
