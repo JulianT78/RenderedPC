@@ -6,8 +6,15 @@
     align-items: center;
     padding: 1rem;
 
-    h2 {
+    .titulo {
+        margin: 0;
+        font-size: 32px;
+    }
+
+    .sub-titulo {
         text-align: end;
+        margin-bottom: 0;
         margin-right: 20px;
+        font-size: 24px;
     }
 }

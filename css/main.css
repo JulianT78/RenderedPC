@@ -14,9 +14,15 @@
   align-items: center;
   padding: 1rem;
 }
-.header h2 {
+.header .titulo {
+  margin: 0;
+  font-size: 32px;
+}
+.header .sub-titulo {
   text-align: end;
+  margin-bottom: 0;
   margin-right: 20px;
+  font-size: 24px;
 }
 
 .nav-bar {
@@ -29,6 +35,8 @@
   align-items: center;
   flex-wrap: wrap;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .nav-bar .menu-item a {
   color: #C8ADC0;
@@ -117,4 +125,25 @@ body {
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   text-align: center;
   width: 50%;
+}
+
+#serv-precios {
+  color: #080708;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 35px;
+}
+
+table {
+  margin-top: 1rem;
+}
+table th, table td {
+  text-align: center;
+}
+
+#consulta {
+  color: #080708;
+  text-align: end;
+  margin-right: 25px;
+  font-size: 2rem;
 }/*# sourceMappingURL=main.css.map */

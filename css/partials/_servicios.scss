@@ -1,0 +1,21 @@
+#serv-precios {
+    color: $headerColor;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 35px;
+}
+
+table {
+    margin-top: 1rem;
+
+    th, td {
+        text-align: center;
+    }
+}
+
+#consulta {
+    color: $headerColor;
+    text-align: end;
+    margin-right: 25px;
+    font-size: 2rem;
+}
