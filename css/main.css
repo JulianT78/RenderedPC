@@ -310,7 +310,7 @@ table th, table td {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .header,
   .nav-bar,
   .footer {
@@ -330,7 +330,7 @@ table th, table td {
     font-size: 22px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #cuerpo-index {
     display: flex;
     flex-direction: column;
@@ -353,6 +353,9 @@ table th, table td {
     width: 350px;
     margin: 0;
   }
+  #cuerpo-index #index-box #img1:hover {
+    width: 350px;
+  }
   #cuerpo-index #index-box2 {
     display: flex;
     flex-direction: column;
@@ -363,9 +366,122 @@ table th, table td {
     padding: 0;
   }
   #cuerpo-index #index-box2 #img2 {
-    width: 360px;
+    width: 350px;
+  }
+  #cuerpo-index #index-box2 #img2:hover {
+    width: 350px;
   }
   #cuerpo-index #index-box2 #parrafo-box {
     width: 90%;
+  }
+  #cuerpo #cajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cuerpo #cajas .caja {
+    width: 90%;
+  }
+  #cuerpoContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cuerpoContacto #formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+  }
+  #cuerpoContacto #formulario #h3sub-contacto {
+    font-size: 22px;
+  }
+  #cuerpoContacto #formulario #nombre-apellido {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  #cuerpoContacto #formulario #nombre-apellido #txtNombre,
+  #cuerpoContacto #formulario #nombre-apellido #txtApellido {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #cuerpoContacto #formulario #nombre-apellido #lblNombre,
+  #cuerpoContacto #formulario #nombre-apellido #lblApellido {
+    text-align: start;
+  }
+  #cuerpoContacto #formulario #correo-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  #cuerpoContacto #formulario #correo-div #lblCorreo {
+    text-align: start;
+  }
+  #cuerpoContacto #formulario #correo-div #txtCorreo {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #cuerpoContacto #formulario #telefono-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  #cuerpoContacto #formulario #telefono-div #lblTelefono {
+    text-align: start;
+  }
+  #cuerpoContacto #formulario #telefono-div #txtNTel {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #cuerpoContacto #formulario #textArea {
+    width: 95%;
+  }
+  #cuerpoContacto #formulario #pregunta-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cuerpoContacto #formulario #pregunta-div #clickLink {
+    font-size: 22px;
+  }
+  #cuerpoContacto #ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  #cuerpoContacto #ubicacion #mapa {
+    width: 95%;
+  }
+  #serv-precios {
+    font-size: 25px;
+  }
+  #consulta {
+    font-size: 23px;
+    text-align: center;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  .body #div-imagenes {
+    display: flex;
+    flex-direction: column;
+  }
+  .body #div-imagenes #logo-utn,
+  .body #div-imagenes #servicio-desktop {
+    display: none;
+  }
+  .body #div-imagenes #yo {
+    width: 90%;
+  }
+  .body #parrafo-nosotros {
+    width: 70%;
   }
 }/*# sourceMappingURL=main.css.map */

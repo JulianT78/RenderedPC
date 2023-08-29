@@ -1,5 +1,5 @@
 // GENERAL
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .header,
     .nav-bar,
     .footer {
@@ -30,8 +30,8 @@
     }
 }
 
-// INDEX
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+    // INDEX
     #cuerpo-index {
         display: flex;
         flex-direction: column;
@@ -55,6 +55,10 @@
             #img1 {
                 width: 350px;
                 margin: 0;
+
+                &:hover {
+                    width: 350px;
+                }
             }
         }
 
@@ -69,12 +73,158 @@
             padding: 0;
 
             #img2 {
-                width: 360px;
+                width: 350px;
+
+                &:hover {
+                    width: 350px;
+                }
             }
 
             #parrafo-box {
                 width: 90%;
             }
+        }
+    }
+
+    // FAQ
+    #cuerpo {
+        #cajas {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .caja {
+                width: 90%;
+            }
+        }
+    }
+
+    // CONTACTO
+    #cuerpoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 90%;
+
+            #h3sub-contacto {
+                font-size: 22px;
+            }
+
+            #nombre-apellido {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                
+                #txtNombre,
+                #txtApellido {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+
+                #lblNombre,
+                #lblApellido {
+                    text-align: start;
+                }
+            }
+
+            #correo-div {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+
+                #lblCorreo {
+                    text-align: start;
+                }
+
+                #txtCorreo {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            #telefono-div {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+
+                #lblTelefono {
+                    text-align: start;
+                }
+
+                #txtNTel {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            #textArea {
+                width: 95%;
+            }
+
+            #pregunta-div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                #clickLink {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        #ubicacion {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+
+            #mapa {
+                width: 95%;
+            }
+        }
+    }
+
+    // SERVICIOS
+    #serv-precios {
+        font-size: 25px;
+    }
+
+    #consulta {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    // NOSOTROS
+    .body {
+        display: flex;
+        flex-direction: column;
+
+        #div-imagenes {
+            display: flex;
+            flex-direction: column;
+
+            #logo-utn,
+            #servicio-desktop {
+                display: none;
+            }
+
+            #yo {
+                width: 90%;
+            }
+        }
+
+        #parrafo-nosotros {
+            width: 70%;
         }
     }
 }
