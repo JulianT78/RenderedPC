@@ -383,7 +383,7 @@ th, td {
 /* FAQ */
 @media (max-width: 1080px) {
     .header,
-    .nav-nar,
+    .nav-bar,
     .footer {
         width: 100%;
     }

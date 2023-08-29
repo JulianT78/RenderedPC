@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@1,100;1,500&display=swap");
-@media (max-width: 700px) {
-  .header,
-  .nav-bar,
-  .footer {
-    width: 100%;
-  }
-  .menu-item {
-    font-size: 15px;
-  }
-}
 * {
   padding: 0;
   margin: 0;
@@ -318,4 +308,64 @@ table th, table td {
 }
 #cuerpoContacto #ubicacion #mapa:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 400px) {
+  .header,
+  .nav-bar,
+  .footer {
+    width: 100%;
+  }
+  .header .titulo {
+    font-size: 25px;
+  }
+  .header .sub-titulo {
+    font-size: 22px;
+    margin: 0;
+  }
+  .nav-bar .menu-item {
+    font-size: 10px;
+  }
+  .footer .footer-titulo {
+    font-size: 22px;
+  }
+}
+@media (max-width: 400px) {
+  #cuerpo-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cuerpo-index #index-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 380px;
+  }
+  #cuerpo-index #index-box .titulo-index {
+    text-align: center;
+    font-size: 20px;
+  }
+  #cuerpo-index #index-box #img1 {
+    width: 350px;
+    margin: 0;
+  }
+  #cuerpo-index #index-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  #cuerpo-index #index-box2 #img2 {
+    width: 360px;
+  }
+  #cuerpo-index #index-box2 #parrafo-box {
+    width: 90%;
+  }
 }/*# sourceMappingURL=main.css.map */
