@@ -40,6 +40,12 @@
   margin: 0;
   padding: 0;
 }
+.nav-bar .menu-item {
+  transition: 300ms;
+}
+.nav-bar .menu-item:hover {
+  transform: scale(1.5);
+}
 .nav-bar .menu-item a {
   color: #C8ADC0;
   transition: 300ms;
@@ -144,6 +150,7 @@ body {
 
 table {
   margin-top: 1rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 table th, table td {
   text-align: center;
@@ -228,6 +235,11 @@ table th, table td {
   width: 40%;
   border: 2px solid black;
   border-radius: 1rem;
+  transition: 300ms;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#cuerpo #cajas .caja:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 #cuerpo #cajas .caja .caja-subtitulo {
   text-align: center;
