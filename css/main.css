@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@1,100;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Short+Stack&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "REM", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .header {
@@ -17,12 +17,14 @@
 .header .titulo {
   margin: 0;
   font-size: 32px;
+  font-weight: 700;
 }
 .header .sub-titulo {
   text-align: end;
   margin-bottom: 0;
   margin-right: 20px;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .nav-bar {
@@ -42,6 +44,7 @@
   color: #C8ADC0;
   transition: 300ms;
   text-decoration: none;
+  font-weight: 700;
 }
 .nav-bar .menu-item a:hover {
   color: #080708;
@@ -60,6 +63,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer .footer-titulo {
+  font-weight: 700;
 }
 .footer .contenedor-iconos {
   display: flex;
@@ -91,6 +97,7 @@ body {
 }
 #cuerpo-index #index-box .titulo-index {
   font-size: 24px;
+  font-weight: 700;
   margin: 1rem;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
@@ -121,6 +128,7 @@ body {
 }
 #cuerpo-index #index-box2 #parrafo-box {
   font-size: 20px;
+  font-weight: 400;
   margin: 1rem;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   text-align: center;
@@ -176,7 +184,8 @@ table th, table td {
   height: 400px;
 }
 .body #parrafo-nosotros {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 400;
   width: 40%;
   margin: 1rem;
   text-align: center;
@@ -186,7 +195,7 @@ table th, table td {
 }
 .body #parrafo-nosotros #strong-utn:hover {
   color: #7765E3;
-  font-size: 25px;
+  font-size: 30px;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
