@@ -47,7 +47,7 @@
   transform: scale(1.5);
 }
 .nav-bar .menu-item a {
-  color: #C8ADC0;
+  color: #EDD3C4;
   transition: 300ms;
   text-decoration: none;
   font-weight: 700;
@@ -57,7 +57,7 @@
 }
 
 body {
-  background-color: #C8ADC0;
+  background-color: #1B5299;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -133,7 +133,7 @@ body {
   width: 600px;
 }
 #cuerpo-index #index-box2 #parrafo-box {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   margin: 1rem;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
@@ -171,11 +171,12 @@ table th, table td {
 .body #h3-subtitulo {
   margin: 1rem;
   transition: 400ms;
+  font-size: 25px;
 }
 .body #h3-subtitulo:hover {
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 32px;
 }
 .body #div-imagenes {
   display: flex;
@@ -191,6 +192,7 @@ table th, table td {
   height: 400px;
 }
 .body #parrafo-nosotros {
+  color: #EDD3C4;
   font-size: 25px;
   font-weight: 400;
   width: 40%;
@@ -201,7 +203,7 @@ table th, table td {
   transition: 400ms;
 }
 .body #parrafo-nosotros #strong-utn:hover {
-  color: #7765E3;
+  color: #080708;
   font-size: 30px;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
@@ -227,6 +229,7 @@ table th, table td {
   justify-content: space-between;
 }
 #cuerpo #cajas .caja {
+  color: #EDD3C4;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -234,7 +237,7 @@ table th, table td {
   padding: 1rem;
   width: 40%;
   border: 2px solid black;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   transition: 300ms;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
@@ -244,6 +247,7 @@ table th, table td {
 #cuerpo #cajas .caja .caja-subtitulo {
   text-align: center;
   margin-bottom: 1rem;
+  font-style: italic;
 }
 #cuerpo #cajas .caja .pr-caja {
   margin: 1.5rem;
@@ -251,6 +255,7 @@ table th, table td {
 #cuerpo #cajas .caja .pr-caja .pregunta {
   text-align: center;
   margin-bottom: 1rem;
+  font-style: italic;
 }
 #cuerpo #cajas .caja .pr-caja .respuesta {
   text-align: justify;
@@ -321,7 +326,7 @@ table th, table td {
 }
 #cuerpoContacto #ubicacion #h3Ubicacion {
   margin-bottom: 1rem;
-  font-size: 25px;
+  font-size: 30px;
 }
 #cuerpoContacto #ubicacion #mapa {
   transition: 400ms;
@@ -490,6 +495,9 @@ table th, table td {
   .body {
     display: flex;
     flex-direction: column;
+  }
+  .body #h3-subtitulo:hover {
+    font-size: 25px;
   }
   .body #div-imagenes {
     display: flex;

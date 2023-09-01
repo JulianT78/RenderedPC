@@ -25,6 +25,7 @@
         justify-content: space-between;
 
         .caja {
+            color: $white;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -32,7 +33,7 @@
             padding: 1rem;
             width: 40%;
             border: 2px solid black;
-            border-radius: 1rem;
+            border-radius: 1.5rem;
             transition: 300ms;
             box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
@@ -43,6 +44,7 @@
             .caja-subtitulo {
                 text-align: center;
                 margin-bottom: 1rem;
+                font-style: italic;
             }
 
             .pr-caja {
@@ -51,6 +53,7 @@
                 .pregunta {
                     text-align: center;
                     margin-bottom: 1rem;
+                    font-style: italic;
                 }
                 
                 .respuesta {

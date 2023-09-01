@@ -6,6 +6,7 @@
     #h3-subtitulo {
         margin: 1rem;
         transition: 400ms;
+        font-size: 25px;
 
         &:hover {
             text-shadow: 
@@ -14,7 +15,7 @@
             -1px 1px 0 white,
             1px 1px 0 white;
             cursor: pointer;
-            font-size: 25px;
+            font-size: 32px;
         }
     }
 
@@ -35,6 +36,7 @@
     }
 
     #parrafo-nosotros {
+        color: $white;
         font-size: 25px;
         font-weight: 400;
         width: 40%;
@@ -45,7 +47,7 @@
             transition: 400ms;
 
             &:hover {
-                color: $violet;
+                color: $headerColor;
                 font-size: 30px;
                 text-shadow: 
                 -1px -1px 0 white,
