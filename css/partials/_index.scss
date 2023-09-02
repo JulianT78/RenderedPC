@@ -1,6 +1,6 @@
 #cuerpo-index {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 
     #index-box {
@@ -8,7 +8,7 @@
         flex-direction: column;
         align-items: start;
         margin: 1rem;
-        height: 550px;
+        height: 500px;
 
         .titulo-index {
             font-size: 24px;
@@ -35,33 +35,42 @@
 
     #index-box2 {
         display: flex;
-        flex-direction: column;
-        align-items: end;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        height: 500px;
+        width: 100%;
         margin: 1rem;
-        margin-top: 35rem;
-        width: 50%;
 
-        #img2 {
-            width: 500px;
-            transition: 300ms;
-
-            &:hover {
-                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-                width: 600px;
-            }
-        }
-
-        #parrafo-box {
-            font-size: 24px;
-            font-weight: 400;
-            margin: 1rem;
-            text-shadow: 
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px 1px 0 white,
-            1px 1px 0 white;
-            text-align: center;
+        #subindex-box2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             width: 50%;
-        }
+            height: 100%;
+            #img2 {
+                width: 500px;
+                transition: 300ms;
+    
+                &:hover {
+                    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+                    width: 600px;
+                }
+            }
+
+            #parrafo-box {
+                font-size: 24px;
+                font-weight: 400;
+                margin: 1rem;
+                text-shadow: 
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
+                text-align: center;
+                width: 90%;
+            }
+        } 
     }
 }
