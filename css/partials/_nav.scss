@@ -14,9 +14,11 @@
     
     .menu-item {
         transition: 300ms;
+
         &:hover {
             transform: scale(1.5);
         }
+        
         a {
             color: $white;
             transition: 300ms;
