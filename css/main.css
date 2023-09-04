@@ -402,8 +402,9 @@ table th, table td {
 .body #div-imagenes {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 .body #div-imagenes .imagenes-body {
   width: 30%;
@@ -411,6 +412,9 @@ table th, table td {
 .body #div-imagenes #logo-utn {
   width: 400px;
   height: 400px;
+}
+.body #div-imagenes #yo {
+  border-radius: 15%;
 }
 .body #parrafo-nosotros {
   color: #EDD3C4;

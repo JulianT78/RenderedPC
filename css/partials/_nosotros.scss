@@ -22,8 +22,9 @@
     #div-imagenes {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        gap: 2rem;
 
         .imagenes-body {
             width: 30%;
@@ -32,6 +33,10 @@
         #logo-utn {
             width: 400px;
             height: 400px;
+        }
+
+        #yo {
+            border-radius: 15%;
         }
     }
 
