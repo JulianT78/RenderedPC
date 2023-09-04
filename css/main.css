@@ -604,13 +604,16 @@ table th, table td {
     margin: 0;
     padding: 0;
   }
-  #cuerpo-index #index-box2 #img2 {
+  #cuerpo-index #index-box2 #subindex-box2 {
+    width: 100%;
+  }
+  #cuerpo-index #index-box2 #subindex-box2 #img2 {
     width: 350px;
   }
-  #cuerpo-index #index-box2 #img2:hover {
+  #cuerpo-index #index-box2 #subindex-box2 #img2:hover {
     width: 350px;
   }
-  #cuerpo-index #index-box2 #parrafo-box {
+  #cuerpo-index #index-box2 #subindex-box2 #parrafo-box {
     width: 90%;
   }
   #cuerpo #cajas {
@@ -702,7 +705,7 @@ table th, table td {
     font-size: 25px;
   }
   #consulta {
-    font-size: 23px;
+    font-size: 22px;
     text-align: center;
   }
   .body {

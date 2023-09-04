@@ -68,20 +68,22 @@
             justify-content: center;
             align-items: center;
             width: 90%;
-            // background-color: pink;
             margin: 0;
             padding: 0;
 
-            #img2 {
-                width: 350px;
-
-                &:hover {
+            #subindex-box2 {
+                width: 100%;
+                #img2 {
                     width: 350px;
+    
+                    &:hover {
+                        width: 350px;
+                    }
                 }
-            }
 
-            #parrafo-box {
-                width: 90%;
+                #parrafo-box {
+                    width: 90%;
+                }
             }
         }
     }
@@ -200,7 +202,7 @@
     }
 
     #consulta {
-        font-size: 23px;
+        font-size: 22px;
         text-align: center;
     }
 
