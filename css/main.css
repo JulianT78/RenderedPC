@@ -547,11 +547,26 @@ table th, table td {
 #cuerpoContacto #formulario #textArea {
   resize: none;
 }
+#cuerpoContacto #formulario #btnEnviar {
+  margin-bottom: 1rem;
+  height: 4rem;
+  font-size: 20px;
+}
 #cuerpoContacto #formulario #pregunta-div {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cuerpoContacto #formulario #pregunta-div #clickLink {
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 300ms;
+}
+#cuerpoContacto #formulario #pregunta-div #clickLink:hover {
+  color: #EDD3C4;
 }
 #cuerpoContacto #ubicacion {
   display: flex;
