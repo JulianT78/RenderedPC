@@ -1,5 +1,5 @@
 .nav-bar {
-    background-color: $blue;
+    background-color: $silver;
     padding: 1rem;
 
     .nav-lista {
@@ -20,13 +20,13 @@
         }
         
         a {
-            color: $white;
+            color: $onyx;
             transition: 300ms;
             text-decoration: none;
             font-weight: 700;
 
             &:hover {
-                color: $headerColor; 
+                color: $paynesGray; 
             }
         }
     }

@@ -163,8 +163,8 @@
   }
 }
 .header {
-  background-color: #080708;
-  color: #7765E3;
+  background-color: #393D3F;
+  color: #C6C5B9;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -186,7 +186,7 @@
 }
 
 .nav-bar {
-  background-color: #3B60E4;
+  background-color: #C6C5B9;
   padding: 1rem;
 }
 .nav-bar .nav-lista {
@@ -205,13 +205,13 @@
   transform: scale(1.5);
 }
 .nav-bar .menu-item a {
-  color: #EDD3C4;
+  color: #393D3F;
   transition: 300ms;
   text-decoration: none;
   font-weight: 700;
 }
 .nav-bar .menu-item a:hover {
-  color: #080708;
+  color: #546A7B;
 }
 
 body {
@@ -238,8 +238,8 @@ body {
   }
 }
 .footer {
-  background-color: #080708;
-  color: #7765E3;
+  background-color: #393D3F;
+  color: #C6C5B9;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -256,12 +256,12 @@ body {
 .footer .contenedor-iconos i {
   font-size: 40px;
   margin-right: 10px;
-  color: #7765E3;
+  color: #C6C5B9;
   transition: 300ms;
 }
 .footer .contenedor-iconos i:hover {
   cursor: pointer;
-  color: #EDD3C4;
+  color: #62929E;
   animation: rotate-center 0.6s ease-in-out both;
 }
 @keyframes rotate-center {
@@ -277,66 +277,108 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: brown;
 }
-#cuerpo-index .imagenes #img-box {
+#cuerpo-index .imagenes {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  margin: 1rem;
-  height: 500px;
-  animation: bounce-in-top 1.1s both;
-  background-color: pink;
+  justify-content: space-evenly;
+  width: 50%;
 }
-#cuerpo-index .imagenes #img-box .titulo-index {
-  font-size: 24px;
+#cuerpo-index .imagenes .img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+  height: 550px;
+  animation: bounce-in-top 1.1s both;
+}
+#cuerpo-index .imagenes .img-box .titulo-index {
+  font-size: 30px;
   font-weight: 700;
   margin: 1rem;
+  text-align: center;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
-#cuerpo-index .imagenes #img-box #img1 {
+#cuerpo-index .imagenes .img-box #img1 {
   width: 500px;
   margin-left: 1rem;
   transition: 300ms;
 }
-#cuerpo-index .imagenes #img-box #img1:hover {
+#cuerpo-index .imagenes .img-box #img1:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  width: 600px;
+  width: 550px;
+  border-radius: 5%;
 }
-#cuerpo-index .imagenes #img-box2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  align-items: center;
-  height: 500px;
-  width: 97%;
-  margin: 1rem;
-  animation: bounce-in-top 1.1s both;
-  background-color: red;
-}
-#cuerpo-index .imagenes #img-box2 #subindex-box2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-#cuerpo-index .imagenes #img-box2 #subindex-box2 #img2 {
+#cuerpo-index .imagenes .img-box #img2 {
   width: 500px;
   transition: 300ms;
 }
-#cuerpo-index .imagenes #img-box2 #subindex-box2 #img2:hover {
+#cuerpo-index .imagenes .img-box #img2:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  width: 600px;
+  width: 550px;
+  border-radius: 5%;
 }
-#cuerpo-index .imagenes #img-box2 #subindex-box2 #parrafo-box {
+#cuerpo-index .imagenes .img-box #parrafo-box {
   font-size: 24px;
   font-weight: 400;
   margin: 1rem;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   text-align: center;
   width: 90%;
+}
+#cuerpo-index .tarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 2rem;
+  overflow: hidden;
+}
+#cuerpo-index .tarjetas .card {
+  width: 450px;
+  margin: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #C6C5B9;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+#cuerpo-index .tarjetas .card .card-figure .card-img {
+  width: 100%;
+  height: 210px;
+}
+#cuerpo-index .tarjetas .card .contenido {
+  padding: 1rem;
+  text-align: center;
+}
+#cuerpo-index .tarjetas .card .contenido .card-titulo {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#cuerpo-index .tarjetas .card .contenido .card-parrafo {
+  line-height: 1.5;
+  color: #393D3F;
+}
+#cuerpo-index .tarjetas .card .contenido .card-a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 1rem;
+  color: #62929E;
+  border: 1px solid #FDFDFF;
+  border-radius: 5%;
+  transition: all 400ms ease;
+}
+#cuerpo-index .tarjetas .card .contenido .card-a:hover {
+  background-color: #62929E;
+  color: #fff;
+}
+#cuerpo-index .tarjetas .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
 }
 @keyframes bounce-in-top {
   0% {
@@ -433,7 +475,7 @@ table th, table td {
   border-radius: 15%;
 }
 .body #parrafo-nosotros {
-  color: #EDD3C4;
+  color: #FDFDFF;
   font-size: 25px;
   font-weight: 400;
   width: 40%;
@@ -470,7 +512,7 @@ table th, table td {
   justify-content: space-between;
 }
 #cuerpo #cajas .caja {
-  color: #EDD3C4;
+  color: #FDFDFF;
   background-color: RGBA(42, 45, 52, 0.8);
   display: flex;
   flex-direction: column;
@@ -569,7 +611,7 @@ table th, table td {
   transition: 300ms;
 }
 #cuerpoContacto #formulario #pregunta-div #clickLink:hover {
-  color: #EDD3C4;
+  color: #FDFDFF;
 }
 #cuerpoContacto #ubicacion {
   display: flex;
@@ -616,45 +658,49 @@ table th, table td {
     justify-content: center;
     align-items: center;
   }
-  #cuerpo-index #index-box {
+  #cuerpo-index .imagenes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 380px;
+    height: 90%;
   }
-  #cuerpo-index #index-box .titulo-index {
-    text-align: center;
+  #cuerpo-index .imagenes .img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+  }
+  #cuerpo-index .imagenes .img-box .titulo-index {
     font-size: 20px;
   }
-  #cuerpo-index #index-box #img1 {
-    width: 350px;
+  #cuerpo-index .imagenes .img-box #img1 {
+    width: 250px;
     margin: 0;
+    margin-bottom: 1rem;
   }
-  #cuerpo-index #index-box #img1:hover {
-    width: 350px;
+  #cuerpo-index .imagenes .img-box #img1:hover {
+    width: 250px;
   }
-  #cuerpo-index #index-box2 {
+  #cuerpo-index .imagenes .img-box #img2 {
+    width: 250px;
+    margin-top: 1rem;
+  }
+  #cuerpo-index .imagenes .img-box #img2:hover {
+    width: 250px;
+  }
+  #cuerpo-index .tarjetas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    margin: 0;
-    padding: 0;
-  }
-  #cuerpo-index #index-box2 #subindex-box2 {
     width: 100%;
   }
-  #cuerpo-index #index-box2 #subindex-box2 #img2 {
-    width: 350px;
-  }
-  #cuerpo-index #index-box2 #subindex-box2 #img2:hover {
-    width: 350px;
-  }
-  #cuerpo-index #index-box2 #subindex-box2 #parrafo-box {
-    width: 90%;
+  #cuerpo-index .tarjetas .card {
+    width: 300px;
   }
   #cuerpo #cajas {
     display: flex;
