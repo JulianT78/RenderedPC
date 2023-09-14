@@ -10,9 +10,9 @@
         justify-content: start;
         margin: 1rem;
         padding: 1rem;
-        border: 3px solid #080708;
+        border: 3px solid $onyx;
         border-radius: 5%;
-        background-color: #7765E3;
+        background-color: $silver;
         width: 600px;
         height: 400px;
         overflow: hidden;
@@ -72,12 +72,18 @@
 
             #clickLink {
                 font-weight: 700;
-                font-size: 22px;
+                font-size: 18px;
                 text-decoration: none;
                 transition: 300ms;
+                background-color: $onyx;
+                border: 2px solid $blueMunsell;
+                border-radius: 15%;
+                padding: 10px;
+                color: $silver;
 
                 &:hover {
-                    color: $white;
+                    background-color: $silver;
+                    color: $onyx;
                 }
             }
         }

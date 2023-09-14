@@ -368,7 +368,7 @@ body {
   padding: 10px;
   margin-top: 1rem;
   color: #62929E;
-  border: 1px solid #FDFDFF;
+  border: 1px solid #62929E;
   border-radius: 5%;
   transition: all 400ms ease;
 }
@@ -418,7 +418,7 @@ body {
 }
 
 #serv-precios {
-  color: #080708;
+  color: #393D3F;
   font-weight: 700;
   text-align: center;
   margin-top: 1rem;
@@ -435,7 +435,7 @@ table th, table td {
 }
 
 #consulta {
-  color: #080708;
+  color: #393D3F;
   font-weight: 700;
   text-align: end;
   margin-right: 25px;
@@ -486,7 +486,7 @@ table th, table td {
   transition: 400ms;
 }
 .body #parrafo-nosotros #strong-utn:hover {
-  color: #080708;
+  color: #393D3F;
   font-size: 30px;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
@@ -553,9 +553,9 @@ table th, table td {
   justify-content: start;
   margin: 1rem;
   padding: 1rem;
-  border: 3px solid #080708;
+  border: 3px solid #393D3F;
   border-radius: 5%;
-  background-color: #7765E3;
+  background-color: #C6C5B9;
   width: 600px;
   height: 400px;
   overflow: hidden;
@@ -606,12 +606,18 @@ table th, table td {
 }
 #cuerpoContacto #formulario #pregunta-div #clickLink {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
   transition: 300ms;
+  background-color: #393D3F;
+  border: 2px solid #62929E;
+  border-radius: 15%;
+  padding: 10px;
+  color: #C6C5B9;
 }
 #cuerpoContacto #formulario #pregunta-div #clickLink:hover {
-  color: #FDFDFF;
+  background-color: #C6C5B9;
+  color: #393D3F;
 }
 #cuerpoContacto #ubicacion {
   display: flex;
