@@ -7,14 +7,16 @@
     padding: 1rem;
 
     .titulo {
-        animation: $blurredRight;
+        animation: $entradaHeader;
+        animation-delay: 100ms;
         margin: 0;
         font-size: 32px;
         font-weight: 700;
     }
 
     .sub-titulo {
-        animation: $blurredLeft;
+        animation: $entradaHeader;
+        animation-delay: 300ms;
         text-align: end;
         margin-bottom: 0;
         margin-right: 20px;
