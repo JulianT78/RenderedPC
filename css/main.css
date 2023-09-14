@@ -549,8 +549,8 @@ table th, table td {
   border: 3px solid #393D3F;
   border-radius: 5%;
   background-color: #C6C5B9;
-  width: 600px;
-  height: 400px;
+  width: 800px;
+  height: 600px;
   overflow: hidden;
   transition: 400ms;
 }
@@ -623,6 +623,8 @@ table th, table td {
   font-size: 30px;
 }
 #cuerpoContacto #ubicacion #mapa {
+  width: 700px;
+  height: 700px;
   transition: 400ms;
   border-radius: 5%;
 }

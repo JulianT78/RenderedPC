@@ -13,8 +13,8 @@
         border: 3px solid $onyx;
         border-radius: 5%;
         background-color: $silver;
-        width: 600px;
-        height: 400px;
+        width: 800px;
+        height: 600px;
         overflow: hidden;
         transition: 400ms;
 
@@ -101,6 +101,8 @@
         }
 
         #mapa {
+            width: 700px;
+            height: 700px;
             transition: 400ms;
             border-radius: 5%;
 
