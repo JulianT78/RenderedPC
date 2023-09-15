@@ -243,28 +243,9 @@
 }
 
 body {
-  animation: color-change-5x 8s linear infinite alternate both;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #62929E;
 }
 
-@keyframes color-change-5x {
-  0% {
-    background: #19dcea;
-  }
-  25% {
-    background: #b22cff;
-  }
-  50% {
-    background: #ea2222;
-  }
-  75% {
-    background: #f5be10;
-  }
-  100% {
-    background: #3bd80d;
-  }
-}
 .footer {
   background-color: #393D3F;
   color: #C6C5B9;
@@ -454,11 +435,13 @@ table th, table td {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
   align-items: center;
-  gap: 2rem;
+  background-color: black;
+  gap: 3rem;
 }
 .body #div-imagenes .imagenes-body {
-  width: 30%;
+  width: 450px;
 }
 .body #div-imagenes #logo-utn {
   width: 400px;
