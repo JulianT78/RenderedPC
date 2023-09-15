@@ -211,30 +211,38 @@
     }
 
     // NOSOTROS
-    .body {
-        display: flex;
-        flex-direction: column;
-
-        #h3-subtitulo:hover {
-            font-size: 25px;
-        }
-
-        #div-imagenes {
+    .nosotros-body {
+        #nosotros-contenido {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-            #logo-utn,
-            #servicio-desktop {
+            #nosotros-col1 {
                 display: none;
             }
 
-            #yo {
-                width: 90%;
-            }
-        }
+            #nosotros-col2 {
+                #nosotros-titulo {
+                    font-size: 22px;
+                }
 
-        #parrafo-nosotros {
-            width: 70%;
+                #yo {
+                    width: 300px;
+                    height: 350px;
+                }
+
+                #parrafo-nosotros {
+                    width: 80%;
+                }
+            }
+
+            #nosotros-col3 {
+                #UTNFRC {
+                    margin-bottom: 1rem;
+                    width: 300px;
+                }
+            }
         }
     }
 }

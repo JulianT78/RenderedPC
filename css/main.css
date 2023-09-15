@@ -188,6 +188,29 @@
     opacity: 1;
   }
 }
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
 .header {
   background-color: #393D3F;
   color: #C6C5B9;
@@ -416,55 +439,68 @@ table th, table td {
   font-size: 2rem;
 }
 
-.body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.nosotros-body {
+  width: 100%;
 }
-.body #h3-subtitulo {
-  margin: 1rem;
-  transition: 400ms;
-  font-size: 25px;
-}
-.body #h3-subtitulo:hover {
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-  cursor: pointer;
-  font-size: 32px;
-}
-.body #div-imagenes {
+.nosotros-body #nosotros-contenido {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  gap: 1rem;
   width: 100%;
+  height: 100%;
+}
+.nosotros-body #nosotros-contenido #nosotros-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: black;
-  gap: 3rem;
+  margin-left: 1rem;
+  gap: 2rem;
 }
-.body #div-imagenes .imagenes-body {
-  width: 450px;
-}
-.body #div-imagenes #logo-utn {
+.nosotros-body #nosotros-contenido #nosotros-col1 #UTNLugar {
   width: 400px;
-  height: 400px;
+  height: 200px;
 }
-.body #div-imagenes #yo {
-  border-radius: 15%;
+.nosotros-body #nosotros-contenido #nosotros-col1 #UTN {
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
-.body #parrafo-nosotros {
-  color: #FDFDFF;
-  font-size: 25px;
-  font-weight: 400;
-  width: 40%;
-  margin: 1rem;
+.nosotros-body #nosotros-contenido #nosotros-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nosotros-body #nosotros-contenido #nosotros-col2 #nosotros-titulo {
   text-align: center;
-}
-.body #parrafo-nosotros #strong-utn {
-  transition: 400ms;
-}
-.body #parrafo-nosotros #strong-utn:hover {
-  color: #393D3F;
   font-size: 30px;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  margin: 1rem;
+}
+.nosotros-body #nosotros-contenido #nosotros-col2 #yo {
+  height: 550px;
+  border-radius: 5%;
+}
+.nosotros-body #nosotros-contenido #nosotros-col2 #parrafo-nosotros {
+  text-align: center;
+  font-size: 23px;
+  margin: 1rem;
+  width: 500px;
+}
+.nosotros-body #nosotros-contenido #nosotros-col2 #parrafo-nosotros #strong-utn {
+  transition: 300ms;
+}
+.nosotros-body #nosotros-contenido #nosotros-col2 #parrafo-nosotros #strong-utn:hover {
+  color: #C6C5B9;
+}
+.nosotros-body #nosotros-contenido #nosotros-col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.nosotros-body #nosotros-contenido #nosotros-col3 #UTNFRC {
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
 #cuerpo {
@@ -778,25 +814,27 @@ table th, table td {
     font-size: 22px;
     text-align: center;
   }
-  .body {
+  .nosotros-body #nosotros-contenido {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .body #h3-subtitulo:hover {
-    font-size: 25px;
-  }
-  .body #div-imagenes {
-    display: flex;
-    flex-direction: column;
-  }
-  .body #div-imagenes #logo-utn,
-  .body #div-imagenes #servicio-desktop {
+  .nosotros-body #nosotros-contenido #nosotros-col1 {
     display: none;
   }
-  .body #div-imagenes #yo {
-    width: 90%;
+  .nosotros-body #nosotros-contenido #nosotros-col2 #nosotros-titulo {
+    font-size: 22px;
   }
-  .body #parrafo-nosotros {
-    width: 70%;
+  .nosotros-body #nosotros-contenido #nosotros-col2 #yo {
+    width: 300px;
+    height: 350px;
+  }
+  .nosotros-body #nosotros-contenido #nosotros-col2 #parrafo-nosotros {
+    width: 80%;
+  }
+  .nosotros-body #nosotros-contenido #nosotros-col3 #UTNFRC {
+    margin-bottom: 1rem;
+    width: 300px;
   }
 }/*# sourceMappingURL=main.css.map */

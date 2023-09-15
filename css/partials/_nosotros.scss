@@ -1,66 +1,72 @@
-.body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.nosotros-body {
+    width: 100%;
 
-    #h3-subtitulo {
-        margin: 1rem;
-        transition: 400ms;
-        font-size: 25px;
-
-        &:hover {
-            text-shadow: 
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px 1px 0 white,
-            1px 1px 0 white;
-            cursor: pointer;
-            font-size: 32px;
-        }
-    }
-
-    #div-imagenes {
+    #nosotros-contenido {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
+        gap: 1rem;
         width: 100%;
-        align-items: center;
-        background-color: black;
-        gap: 3rem;
+        height: 100%;
 
-        .imagenes-body {
-            width: 450px;
+        #nosotros-col1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-left: 1rem;
+            gap: 2rem;
+
+            #UTNLugar {
+                width: 400px;
+                height: 200px;
+            }
+
+            #UTN {
+                animation: $atencion;
+            }
         }
 
-        #logo-utn {
-            width: 400px;
-            height: 400px;
-        }
+        #nosotros-col2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-        #yo {
-            border-radius: 15%;
-        }
-    }
-
-    #parrafo-nosotros {
-        color: $white;
-        font-size: 25px;
-        font-weight: 400;
-        width: 40%;
-        margin: 1rem;
-        text-align: center;
-
-        #strong-utn {
-            transition: 400ms;
-
-            &:hover {
-                color: $onyx;
+            #nosotros-titulo {
+                text-align: center;
                 font-size: 30px;
-                text-shadow: 
-                -1px -1px 0 white,
-                1px -1px 0 white,
-                -1px 1px 0 white,
-                1px 1px 0 white;
+                margin: 1rem;
+            }
+
+            #yo {
+                height: 550px;
+                border-radius: 5%;
+            }
+
+            #parrafo-nosotros {
+                text-align: center;
+                font-size: 23px;
+                margin: 1rem;
+                width: 500px;
+                #strong-utn {
+                    transition: 300ms;
+                    &:hover {
+                        color: $silver;
+                    }
+                }
+            }
+        }
+
+        #nosotros-col3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1rem;
+
+            #UTNFRC {
+                animation: $atencion;
             }
         }
     }
